@@ -1,5 +1,5 @@
 // Global Constants
-const fieldSize = 1080;
+const fieldSize = 1024;
 let container;
 let p5Canvas;
 let postProcessLayer;
@@ -17,10 +17,6 @@ var chromaticAberrationStrength;
 var xCenter;
 var yCenter;
 
-var radius;
-var angle;
-var step;
-
 function setup() {
 
   createCanvas(fieldSize, fieldSize);
@@ -30,8 +26,6 @@ function setup() {
   noStroke();
   ellipseMode(RADIUS);
   strokeWeight(defaultStrokeWeight);
-  // noLoop(); // Disables frame rate after one draw cycle
-  // scale(width, height); // sets coordinate system to pecentage-based
 
   container = document.getElementsByTagName("main")[0];
   p5Canvas = document.getElementById("defaultCanvas0"); // Automatically assigned by P5js
