@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  margin: 0px !important; 
+  padding: 0px !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+canvas {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+main > canvas {
+  z-index: 1;
+  width: min-content;
+  border: 12px solid whitesmoke;
+}
+
+#post-processor {
+  z-index: 2;
+}

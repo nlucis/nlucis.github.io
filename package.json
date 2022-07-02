@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^2.0.16"
+  },
+  "name": "ga-lightfield",
+  "version": "1.0.0",
+  "description": "Generative Art Setup",
+  "main": "./Script/code.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlucis/ga-lightfield.git"
+  },
+  "author": "nlucis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlucis/ga-lightfield/issues"
+  },
+  "homepage": "https://github.com/nlucis/ga-lightfield#readme"
+}
