@@ -83,3 +83,8 @@ class Ankh {
     ellipse(locationX, locationY - rayLength, rayLength, rayLength * 2);
   }
 }
+
+
+class Tile {
+  constructor () {}
+}
