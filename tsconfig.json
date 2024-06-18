@@ -1,9 +1,14 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
     "target": "ESNext",
     "module": "CommonJS",
-    "outDir": "./dist",
-    "strict": true
+    "outDir": "./public/scripts/",
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceRoot": "./src/"
   },
-  "include": ["./api/**/*"]
+  "exclude": ["./node_modules/**", "*/node_modules/**"]
 }

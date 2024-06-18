@@ -20,6 +20,7 @@
   },
   "scripts": {
     "dev": "vite --host --cors -c ./src/config/vite.config.mts && tslint --exclude ./node_modules",
+    "compile": "tsc -p ./tsconfig.json --watch",
     "test": "jasmine",
     "build": "vite build",
     "declash": "ts-node ./tools/declash.ts"

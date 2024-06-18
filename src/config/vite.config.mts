@@ -28,7 +28,7 @@ export default defineConfig({
       "Strict-Transport-Security": "max-age=86400; includeSubDomains",
       "Access-Control-Allow-Origin": `${allowOrigin}`
     },
-    fs: { allow: ['public/', 'src/', 'node_modules/'] }
+    // fs: { allow: ['public/', 'src/', 'node_modules/'] }
   } as ServerOptions,
   plugins: [ 
     basicSsl(), 

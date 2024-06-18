@@ -2,7 +2,7 @@ import './controllers/Mandorla';
 import '/src/config/tilli.config.mts';
 import 'cesium/Build/Cesium/Widgets/widgets.css';
 import twoConfig from './config/two.config.mjs';
-import threeConfig from './config/three.config.mjs';
+import threeConfig from './config/three.config.js';
 import TWO from 'two.js';
 import * as Tone from 'tone';
 import { 
@@ -30,7 +30,7 @@ import {
   TAARenderPass,
   TexturePass,
   Vignette
-} from './config/postprocessing.config.mts'
+} from './config/postprocessing.config.ts'
 import { Wrap } from './utils/CalcUtils';
 import { SignallingEvents } from './controllers/_InputController';
 import { clamp, degToRad } from 'three/src/math/MathUtils.js';
