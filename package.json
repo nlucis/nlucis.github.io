@@ -1,0 +1,58 @@
+{
+  "name": "nlucis.github.io",
+  "version": "0.0.1",
+  "description": "{-°-} |°| ( ● )",
+  "author": "Arjay Jones <nlucis@tuta.io> (nLucis Creative)",
+  "homepage": "https://nlucis.github.io",
+  "main": "./src/portfolio.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlucis/nlucis.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nlucis/nlucis.github.io/issues"
+  },
+  "license": "UNLICENSE",
+  "directories": {
+    "src": "src/",
+    "public": "/public/",
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "vite --host --cors -c ./src/config/vite.config.mts && tslint --exclude ./node_modules",
+    "test": "jasmine",
+    "build": "vite build",
+    "declash": "ts-node ./tools/declash.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/three": "0.152.1",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "dotenv": "^16.4.5",
+    "fs": "0.0.1-security",
+    "javascript-obfuscator": "^4.1.0",
+    "typescript": "^4.9.5",
+    "vite": "^5.2.10",
+    "vite-plugin-mkcert": "^1.17.5",
+    "workbox": "^0.0.0",
+    "workbox-cli": "^7.1.0",
+    "workbox-precaching": "^7.1.0",
+    "xml-js": "^1.6.11"
+  },
+  "dependencies": {
+    "@helia/json": "^3.0.3",
+    "@helia/strings": "^3.0.3",
+    "@types/cesium": "^1.70.0",
+    "@vercel/node": "^3.1.5",
+    "cesium": "^1.118.2",
+    "eventemitter3": "^5.0.1",
+    "helia": "^4.1.2",
+    "openai": "^4.47.1",
+    "stripe": "^10.17.0",
+    "three": "0.154.0",
+    "tone": "^14.7.77",
+    "ts-node": "^10.9.2",
+    "two.js": "^0.8.13",
+    "vite-plugin-static-copy": "^1.0.5"
+  }
+}

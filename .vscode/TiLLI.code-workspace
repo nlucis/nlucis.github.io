@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": " 'CaskaydiaCove Nerd Font Mono','Space Mono'",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "editor",
+    "editor.autoIndent": "advanced"
+  }
+}

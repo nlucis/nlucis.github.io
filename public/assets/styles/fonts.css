@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+@font-face {
+  font-family: Adagio;
+  src: url('https://nlucis.github.io/fontbank/adagio.ttf');
+}
+@font-face {
+  font-family: Adornos;
+  src: url('https://nlucis.github.io/fontbank/adornos.ttf');
+}
+@font-face {
+  font-family: Aliens;
+  src: url('https://nlucis.github.io/fontbank/aliens.ttf');
+}
+@font-face {
+  font-family: Abingdon;
+  src: url('https://nlucis.github.io/fontbank/abingdon.otf');
+}
+@font-face {
+  font-family: ABitEmpty;
+  src: url('https://nlucis.github.io/fontbank/a-bit-empty.ttf');
+}
+@font-face {
+  font-family: Atmospheric;
+  src: url('https://nlucis.github.io/fontbank/atmospheric.ttf');
+}
+@font-face {
+  font-family: AutobusOmnibus;
+  src: url('https://nlucis.github.io/fontbank/autobus-omnibus.ttf');
+}
+@font-face {
+  font-family: Bit8Wonder;
+  src: url('https://nlucis.github.io/fontbank/8-bit-wonder.ttf');
+}
+@font-face {
+  font-family: CetaMono;
+  src: url('https://nlucis.github.io/fontbank/ceta-mono.ttf');
+}
+@font-face {
+  font-family: DigitalDisco;
+  src: url('https://nlucis.github.io/fontbank/digital-disco.ttf');
+}
+@font-face {
+  font-family: DotMatrix;
+  src: url('https://nlucis.github.io/fontbank/dot-matrix.ttf');
+}
+@font-face {
+  font-family: Galega;
+  src: url('https://nlucis.github.io/fontbank/galega.otf');
+}
+@font-face {
+  font-family: IdentificationMono;
+  src: url('https://nlucis.github.io/fontbank/identification-mono.ttf');
+}
+@font-face {
+  font-family: ModeNine;
+  src: url('https://nlucis.github.io/fontbank/mode-nine.ttf');
+}
+@font-face {
+  font-family: Monkey;
+  src: url('https://nlucis.github.io/fontbank/monkey.ttf');
+}
+@font-face {
+  font-family: Punk;
+  src: url('https://nlucis.github.io/fontbank/punk.ttf');
+}
+@font-face {
+  font-family: RaMonoRegular;
+  src: url('https://nlucis.github.io/fontbank/ra-mono.otf');
+}
+@font-face {
+  font-family: SolidMonoRegular;
+  src: url('https://nlucis.github.io/fontbank/solid-mono.ttf');
+}
+@font-face {
+  font-family: Sekuntia60;
+  src: url('https://nlucis.github.io/fontbank/sekuntia-60.ttf');
+}
+@font-face {
+  font-family: ThirdMan;
+  src: url('https://nlucis.github.io/fontbank/third-man.otf');
+}
+@font-face {
+  font-family: Virgo;
+  src: url("https://nlucis.github.io/fontbank/virgo.ttf");
+}
+
+#copyright-notice {
+  opacity: 0.12;
+}
