@@ -8,6 +8,7 @@
     "outDir": "./public/scripts/",
     "strict": true,
     "skipLibCheck": true,
+    "sourceMap": true,
     "sourceRoot": "./src/"
   },
   "exclude": ["./node_modules/**", "*/node_modules/**"]

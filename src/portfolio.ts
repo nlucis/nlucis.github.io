@@ -53,7 +53,7 @@ export function subLoad (sl: () => void) {_slQueue.push(sl);}
 
 
 // Main UI
-document.addEventListener("DOMContentLoaded", async e => {
+document.addEventListener("DOMContentLoaded", async () => {
   window['SignallingEvents'] = SignallingEvents;
 
   // Main 2D UI

@@ -13,7 +13,8 @@
     "**/node_modules": true,
     "node_modules": true,
     "pnpm-lock.yaml": true,
-    "**/pnpm-lock.yaml": true
+    "**/pnpm-lock.yaml": true,
+    ".vscode": true
   },
   "explorerExclude.backup": {},
   "cSpell.words": [
